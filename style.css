@@ -10,3 +10,42 @@
   font-variation-settings:
     "slnt" 0;
 }
+/* shared style */
+.display-flex{
+    display: flex;
+}
+.text-color{
+    color: #FFFFFF;
+}
+.bg-linear-grad{
+    background-color: linear-gradient(180.00deg, 
+    rgb(17, 17, 17),rgba(109, 107, 107, 0) 100%); 
+   
+}
+
+/* navbar styled */
+.navbar{
+    justify-content: space-between;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 10px;
+   
+    
+}
+.nav-link{
+    text-decoration: none;
+    
+}
+.home-btn{ 
+    color: #FFFFFF;
+   font-size: 18px;
+   font-weight: 600;
+   row height: 22px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 18px 8px 22px;
+    background-color:#E6533C;
+    border-radius: 20px;
+}
